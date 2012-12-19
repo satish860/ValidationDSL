@@ -1,7 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationDsl", "Source\ValidationDsl\ValidationDsl.csproj", "{92D54706-AC69-4CF7-9519-7D80E5CE62CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationDsl.Specs", "Specs\ValidationDsl.Specs\ValidationDsl.Specs.csproj", "{09252F02-DC4D-441F-937A-2BF6C6BCD04B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92D54706-AC69-4CF7-9519-7D80E5CE62CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D54706-AC69-4CF7-9519-7D80E5CE62CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D54706-AC69-4CF7-9519-7D80E5CE62CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D54706-AC69-4CF7-9519-7D80E5CE62CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09252F02-DC4D-441F-937A-2BF6C6BCD04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09252F02-DC4D-441F-937A-2BF6C6BCD04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09252F02-DC4D-441F-937A-2BF6C6BCD04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09252F02-DC4D-441F-937A-2BF6C6BCD04B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
